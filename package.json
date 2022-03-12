@@ -1,0 +1,26 @@
+{
+  "name": "thenable-js",
+  "version": "1.0.0",
+  "description": "A small JavaScript implementation of Promises/A+ thenables",
+  "main": "dist/Thenable.umd.js",
+  "module": "dist/Thenable.esm.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "jest"
+  },
+  "author": "Jason Johnston <jason+github@lojjic.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lojjic/thenable-js.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@rollup/plugin-buble": "^0.21.3",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "promises-aplus-tests": "^2.1.2",
+    "rollup": "^2.70.0"
+  }
+}
