@@ -1,4 +1,4 @@
-# thenable-js
+# tiny-thenable
 
 This is a lightweight [thenable](https://promisesaplus.com/#point-7) implementation in JavaScript. It is entirely self-contained within a single function with no external dependencies, so it can be easily serialized to a web worker, for example. 
 
@@ -13,11 +13,11 @@ This began as a utility in [troika-worker-utils](https://github.com/protectwise/
 ## Usage
 
 ```sh
-npm install thenable-js
+npm install tiny-thenable
 ```
 
 ```js
-import Thenable from 'thenable-js'
+import Thenable from 'tiny-thenable'
 
 const myThenable = Thenable()
 

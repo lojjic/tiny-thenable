@@ -1,5 +1,5 @@
 {
-  "name": "thenable-js",
+  "name": "tiny-thenable",
   "version": "1.0.0",
   "description": "A small JavaScript implementation of Promises/A+ thenables",
   "main": "dist/Thenable.umd.js",
@@ -11,7 +11,7 @@
   "author": "Jason Johnston <jason+github@lojjic.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lojjic/thenable-js.git"
+    "url": "https://github.com/lojjic/tiny-thenable.git"
   },
   "license": "MIT",
   "devDependencies": {
